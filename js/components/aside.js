@@ -47,69 +47,69 @@ export function renderAside(moduloActivo = '') {
       id: 'admin',
       nombre: 'Administración',
       icono: 'fa-shield-halved',
-      link: '/sistemaGps/views/administracion/admin.html',
+      link: '/sistema/views/administracion/admin.html',
       sublinks: [
-        { nombre: 'Auditoría', url: '/sistemaGps/views/administracion/auditoria/auditoria.html', icono: 'fa-file-shield' },
-        { nombre: 'Empleados', url: '/sistemaGps/views/administracion/empleados/empleados.html', icono: 'fa-users' },
-        { nombre: 'Usuarios', url: '/sistemaGps/views/administracion/usuarios/usuarios.html', icono: 'fa-user-gear' }
+        { nombre: 'Auditoría', url: '/sistema/views/administracion/auditoria/auditoria.html', icono: 'fa-file-shield' },
+        { nombre: 'Empleados', url: '/sistema/views/administracion/empleados/empleados.html', icono: 'fa-users' },
+        { nombre: 'Usuarios', url: '/sistema/views/administracion/usuarios/usuarios.html', icono: 'fa-user-gear' }
       ]
     },
     {
       id: 'contabilidad',
       nombre: 'Contabilidad',
       icono: 'fa-calculator',
-      link: '/sistemaGps/views/contabilidad/menu.html',
+      link: '/sistema/views/contabilidad/menu.html',
       sublinks: [
-        { nombre: 'Asientos contables', url: '/sistemaGps/views/contabilidad/asientosContables/asientos_contables.html', icono: 'fa-file-invoice' },
-        { nombre: 'Balance comprobación', url: '/sistemaGps/views/contabilidad/balance/balance.html', icono: 'fa-scale-balanced' },
-        { nombre: 'Detalle asientos', url: '/sistemaGps/views/contabilidad/detalleAsientos/detalle_asientos.html', icono: 'fa-list-check' },
-        { nombre: 'Libro diario', url: '/sistemaGps/views/contabilidad/libro/libro_diario.html', icono: 'fa-book' },
-        { nombre: 'Plan de cuentas', url: '/sistemaGps/views/contabilidad/planCuentas/plan_cuentas.html', icono: 'fa-sitemap' },
-        { nombre: 'Tipos de cuenta', url: '/sistemaGps/views/contabilidad/tiposCuentas/tipos_cuentas.html', icono: 'fa-tags' }
+        { nombre: 'Asientos contables', url: '/sistema/views/contabilidad/asientosContables/asientos_contables.html', icono: 'fa-file-invoice' },
+        { nombre: 'Balance comprobación', url: '/sistema/views/contabilidad/balance/balance.html', icono: 'fa-scale-balanced' },
+        { nombre: 'Detalle asientos', url: '/sistema/views/contabilidad/detalleAsientos/detalle_asientos.html', icono: 'fa-list-check' },
+        { nombre: 'Libro diario', url: '/sistema/views/contabilidad/libro/libro_diario.html', icono: 'fa-book' },
+        { nombre: 'Plan de cuentas', url: '/sistema/views/contabilidad/planCuentas/plan_cuentas.html', icono: 'fa-sitemap' },
+        { nombre: 'Tipos de cuenta', url: '/sistema/views/contabilidad/tiposCuentas/tipos_cuentas.html', icono: 'fa-tags' }
       ]
     },
     {
       id: 'facturacion',
       nombre: 'Facturación',
       icono: 'fa-file-invoice-dollar',
-      link: '/sistemaGps/views/facturacion/facturacion.html',
+      link: '/sistema/views/facturacion/facturacion.html',
       sublinks: [
-        { nombre: 'Factura cliente', url: '/sistemaGps/views/facturacion/facturaCliente/facturas.html', icono: 'fa-receipt' },
-        { nombre: 'Pagos', url: '/sistemaGps/views/facturacion/pagos/pagos.html', icono: 'fa-money-bill-transfer' }
+        { nombre: 'Factura cliente', url: '/sistema/views/facturacion/facturaCliente/facturas.html', icono: 'fa-receipt' },
+        { nombre: 'Pagos', url: '/sistema/views/facturacion/pagos/pagos.html', icono: 'fa-money-bill-transfer' }
       ]
     },
     {
       id: 'finanzas',
       nombre: 'Finanzas',
       icono: 'fa-wallet',
-      link: '/sistemaGps/views/finanzas/finanzas.html',
+      link: '/sistema/views/finanzas/finanzas.html',
       sublinks: [
-        { nombre: 'Bancos', url: '/sistemaGps/views/finanzas/bancos/bancos.html', icono: 'fa-building-columns' },
-        { nombre: 'Tasas de cambio', url: '/sistemaGps/views/finanzas/tasas/tasas.html', icono: 'fa-chart-line' }
+        { nombre: 'Bancos', url: '/sistema/views/finanzas/bancos/bancos.html', icono: 'fa-building-columns' },
+        { nombre: 'Tasas de cambio', url: '/sistema/views/finanzas/tasas/tasas.html', icono: 'fa-chart-line' }
       ]
     },
     {
       id: 'inventario',
       nombre: 'Inventario',
       icono: 'fa-boxes-stacked',
-      link: '/sistemaGps/views/inventario/inventario.html',
+      link: '/sistema/views/inventario/inventario.html',
       sublinks: [
-        { nombre: 'Inventario General', url: '/sistemaGps/views/inventario/inventario/inventario_general.html', icono: 'fa-box-open' },
-        { nombre: 'Proveedores', url: '/sistemaGps/views/inventario/proveedores/proveedores.html', icono: 'fa-truck-field' },
-        { nombre: 'Modelos y Operadoras', url: '/sistemaGps/views/inventario/modelosOperadoras/modelos_operadoras.html', icono: 'fa-network-wired' }
+        { nombre: 'Inventario General', url: '/sistema/views/inventario/inventario/inventario_general.html', icono: 'fa-box-open' },
+        { nombre: 'Proveedores', url: '/sistema/views/inventario/proveedores/proveedores.html', icono: 'fa-truck-field' },
+        { nombre: 'Modelos y Operadoras', url: '/sistema/views/inventario/modelosOperadoras/modelos_operadoras.html', icono: 'fa-network-wired' }
       ]
     },
     {
       id: 'operaciones',
       nombre: 'Operaciones',
       icono: 'fa-gears',
-      link: '/sistemaGps/views/operacionesGPS/operaciones.html',
+      link: '/sistema/views/operacionesGPS/operaciones.html',
       sublinks: [
-        { nombre: 'Clientes', url: '/sistemaGps/views/operacionesGPS/clientes/clientes.html', icono: 'fa-address-book' },
-        { nombre: 'Equipos', url: '/sistemaGps/views/operacionesGPS/equipos/equipos.html', icono: 'fa-microchip' },
-        { nombre: 'Lineas', url: '/sistemaGps/views/operacionesGPS/lineas/lineas.html', icono: 'fa-sim-card' },
-        { nombre: 'Monitor', url: '/sistemaGps/views/operacionesGPS/monitor/monitor.html', icono: 'fa-desktop' },
-        { nombre: 'Vehículos', url: '/sistemaGps/views/operacionesGPS/vehiculos/vehiculos.html', icono: 'fa-car' }
+        { nombre: 'Clientes', url: '/sistema/views/operacionesGPS/clientes/clientes.html', icono: 'fa-address-book' },
+        { nombre: 'Equipos', url: '/sistema/views/operacionesGPS/equipos/equipos.html', icono: 'fa-microchip' },
+        { nombre: 'Lineas', url: '/sistema/views/operacionesGPS/lineas/lineas.html', icono: 'fa-sim-card' },
+        { nombre: 'Monitor', url: '/sistema/views/operacionesGPS/monitor/monitor.html', icono: 'fa-desktop' },
+        { nombre: 'Vehículos', url: '/sistema/views/operacionesGPS/vehiculos/vehiculos.html', icono: 'fa-car' }
       ]
     }
   ];
