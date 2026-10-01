@@ -215,7 +215,7 @@ export function renderAside(moduloActivo = '') {
       console.error("Error al procesar el cierre de sesión:", error);
     } finally {
       localStorage.removeItem('usuario_galax');
-      window.location.href = '/sistemaGps/index.html';
+      window.location.href = '/sistema/index.html';
     }
   });
 }
@@ -223,6 +223,6 @@ export function renderAside(moduloActivo = '') {
 window.addEventListener('storage', (event) => {
   if (event.key === 'logout_event') {
     localStorage.removeItem('usuario_galax');
-    window.location.href = '/sistemaGps/index.html';
+    window.location.href = '/sistema/index.html';
   }
 });
