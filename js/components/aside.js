@@ -48,9 +48,9 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-shield-halved',
       link: '/views/administracion/admin.html',
       sublinks: [
-        { nombre: 'Auditoría', url: '/views/administracion/auditoria/auditoria.html', icono: 'fa-file-shield' },
-        { nombre: 'Empleados', url: '/views/administracion/empleados/empleados.html', icono: 'fa-users' },
-        { nombre: 'Usuarios', url: '/views/administracion/usuarios/usuarios.html', icono: 'fa-user-gear' }
+        { nombre: 'Auditoría', url: 'sistema/views/administracion/auditoria/auditoria.html', icono: 'fa-file-shield' },
+        { nombre: 'Empleados', url: 'sistema/views/administracion/empleados/empleados.html', icono: 'fa-users' },
+        { nombre: 'Usuarios', url: 'sistema/views/administracion/usuarios/usuarios.html', icono: 'fa-user-gear' }
       ]
     },
     {
@@ -59,12 +59,12 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-calculator',
       link: '/views/contabilidad/menu.html',
       sublinks: [
-        { nombre: 'Asientos contables', url: '/views/contabilidad/asientosContables/asientos_contables.html', icono: 'fa-file-invoice' },
-        { nombre: 'Balance comprobación', url: '/views/contabilidad/balance/balance.html', icono: 'fa-scale-balanced' },
-        { nombre: 'Detalle asientos', url: '/views/contabilidad/detalleAsientos/detalle_asientos.html', icono: 'fa-list-check' },
-        { nombre: 'Libro diario', url: '/views/contabilidad/libro/libro_diario.html', icono: 'fa-book' },
-        { nombre: 'Plan de cuentas', url: '/views/contabilidad/planCuentas/plan_cuentas.html', icono: 'fa-sitemap' },
-        { nombre: 'Tipos de cuenta', url: '/views/contabilidad/tiposCuentas/tipos_cuentas.html', icono: 'fa-tags' }
+        { nombre: 'Asientos contables', url: 'sistema/views/contabilidad/asientosContables/asientos_contables.html', icono: 'fa-file-invoice' },
+        { nombre: 'Balance comprobación', url: 'sistema/views/contabilidad/balance/balance.html', icono: 'fa-scale-balanced' },
+        { nombre: 'Detalle asientos', url: 'sistema/views/contabilidad/detalleAsientos/detalle_asientos.html', icono: 'fa-list-check' },
+        { nombre: 'Libro diario', url: 'sistema/views/contabilidad/libro/libro_diario.html', icono: 'fa-book' },
+        { nombre: 'Plan de cuentas', url: 'sistema/views/contabilidad/planCuentas/plan_cuentas.html', icono: 'fa-sitemap' },
+        { nombre: 'Tipos de cuenta', url: 'sistema/views/contabilidad/tiposCuentas/tipos_cuentas.html', icono: 'fa-tags' }
       ]
     },
     {
@@ -73,8 +73,8 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-file-invoice-dollar',
       link: '/views/facturacion/facturacion.html',
       sublinks: [
-        { nombre: 'Factura cliente', url: '/views/facturacion/facturaCliente/facturas.html', icono: 'fa-receipt' },
-        { nombre: 'Pagos', url: '/views/facturacion/pagos/pagos.html', icono: 'fa-money-bill-transfer' }
+        { nombre: 'Factura cliente', url: 'sistema/views/facturacion/facturaCliente/facturas.html', icono: 'fa-receipt' },
+        { nombre: 'Pagos', url: 'sistema/views/facturacion/pagos/pagos.html', icono: 'fa-money-bill-transfer' }
       ]
     },
     {
@@ -83,8 +83,8 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-wallet',
       link: '/views/finanzas/finanzas.html',
       sublinks: [
-        { nombre: 'Bancos', url: '/views/finanzas/bancos/bancos.html', icono: 'fa-building-columns' },
-        { nombre: 'Tasas de cambio', url: '/views/finanzas/tasas/tasas.html', icono: 'fa-chart-line' }
+        { nombre: 'Bancos', url: 'sistema/views/finanzas/bancos/bancos.html', icono: 'fa-building-columns' },
+        { nombre: 'Tasas de cambio', url: 'sistema/views/finanzas/tasas/tasas.html', icono: 'fa-chart-line' }
       ]
     },
     {
@@ -93,9 +93,9 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-boxes-stacked',
       link: '/views/inventario/inventario.html',
       sublinks: [
-        { nombre: 'Inventario General', url: '/views/inventario/inventario/inventario_general.html', icono: 'fa-box-open' },
-        { nombre: 'Proveedores', url: '/views/inventario/proveedores/proveedores.html', icono: 'fa-truck-field' },
-        { nombre: 'Modelos y Operadoras', url: '/views/inventario/modelosOperadoras/modelos_operadoras.html', icono: 'fa-network-wired' }
+        { nombre: 'Inventario General', url: 'sistema/views/inventario/inventario/inventario_general.html', icono: 'fa-box-open' },
+        { nombre: 'Proveedores', url: 'sistema/views/inventario/proveedores/proveedores.html', icono: 'fa-truck-field' },
+        { nombre: 'Modelos y Operadoras', url: 'sistema/views/inventario/modelosOperadoras/modelos_operadoras.html', icono: 'fa-network-wired' }
       ]
     },
     {
@@ -104,11 +104,11 @@ export function renderAside(moduloActivo = '') {
       icono: 'fa-gears',
       link: '/views/operacionesGPS/operaciones.html',
       sublinks: [
-        { nombre: 'Clientes', url: '/views/operacionesGPS/clientes/clientes.html', icono: 'fa-address-book' },
-        { nombre: 'Equipos', url: '/views/operacionesGPS/equipos/equipos.html', icono: 'fa-microchip' },
-        { nombre: 'Lineas', url: '/views/operacionesGPS/lineas/lineas.html', icono: 'fa-sim-card' },
-        { nombre: 'Monitor', url: '/views/operacionesGPS/monitor/monitor.html', icono: 'fa-desktop' },
-        { nombre: 'Vehículos', url: '/views/operacionesGPS/vehiculos/vehiculos.html', icono: 'fa-car' },
+        { nombre: 'Clientes', url: 'sistema/views/operacionesGPS/clientes/clientes.html', icono: 'fa-address-book' },
+        { nombre: 'Equipos', url: 'sistema/views/operacionesGPS/equipos/equipos.html', icono: 'fa-microchip' },
+        { nombre: 'Lineas', url: 'sistema/views/operacionesGPS/lineas/lineas.html', icono: 'fa-sim-card' },
+        { nombre: 'Monitor', url: 'sistema/views/operacionesGPS/monitor/monitor.html', icono: 'fa-desktop' },
+        { nombre: 'Vehículos', url: 'sistema/views/operacionesGPS/vehiculos/vehiculos.html', icono: 'fa-car' },
       ]
     }
   ];
